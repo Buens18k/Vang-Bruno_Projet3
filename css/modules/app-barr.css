@@ -25,18 +25,7 @@
     text-decoration: none;
 }
 
-/* .active {
+.active {
     color: var(--main-color);
-} */
-
-.app-bar__nav-itm.active::before {
-    color: var(--main-color);
-    content: "";
-    position: absolute;
-    top: -5px;
-    left: 0;
-    width: 100%;
-    height: 5px;
-    background-color: var(--main-color);
-
+    border-top: 2px solid blue;
 }
