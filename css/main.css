@@ -15,8 +15,6 @@
     --filter-bg-color: #DEEBFF;
     --font-family:'Raleway', sans-serif;
 }
-
-
 body {
     display: flex;
     flex-direction: column;
@@ -26,7 +24,14 @@ body {
     margin: 0;
     padding: 0;
 }
-
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 90rem;
+    padding-right: 0px;
+    height: 4.9375rem;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 

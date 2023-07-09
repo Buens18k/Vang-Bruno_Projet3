@@ -1,10 +1,5 @@
 .app-bar {
     display: flex;
-    justify-content:space-between;
-    gap: 61.875rem;
-    height: 4.9576rem;
-    width: 100%;
-    max-width: 90rem;
 }
 .logo {
     display: flex;
