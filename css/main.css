@@ -3,6 +3,7 @@
 /* Modules */
 @import 'modules/home.css';
 @import 'modules/app-barr.css';
+@import 'modules/info-group.css';
 
 /****** General ***********/
 * {
@@ -10,17 +11,21 @@
 }
 
 :root {
+    /* Colors */
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
+
+    /* Text Configuration */
     --font-family:'Raleway', sans-serif;
+    --max-width: 90rem;
 }
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 90rem;
+    max-width: var(--max-width);
     margin: 0;
     padding: 0;
 }
@@ -28,7 +33,7 @@ header{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 90rem;
+    max-width: var(--max-width);
     padding-right: 0px;
     height: 4.9375rem;
 }
