@@ -22,18 +22,17 @@
 }
 body {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 100%;
-    max-width: var(--max-width);
-    margin: 0;
-    padding: 0;
+    flex-direction: column;
+    gap: 1.875rem;
+    /* width: 100%; */
 }
 header{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: var(--max-width);
+    max-width: 90rem;
     padding-right: 0px;
     height: 4.9375rem;
 }
