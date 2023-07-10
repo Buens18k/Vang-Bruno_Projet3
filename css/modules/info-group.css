@@ -71,6 +71,9 @@
     border: 0.125rem solid #F2F2F2;
     border-radius: 30px;
 }
+.fa-solid {
+    color: var(--main-color);
+}
 /* Info Bar */
 .inf-bar{
     display: flex;

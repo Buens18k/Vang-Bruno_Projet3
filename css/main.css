@@ -4,6 +4,7 @@
 /* Modules */
 @import 'modules/nav.css';
 @import 'modules/info-group.css';
+@import 'modules/group.css';
 
 /****** General ***********/
 * {
