@@ -1,8 +1,8 @@
 /* Pages */
+@import 'pages/home.css';
 
 /* Modules */
-@import 'modules/home.css';
-@import 'modules/app-barr.css';
+@import 'modules/nav.css';
 @import 'modules/info-group.css';
 
 /****** General ***********/
@@ -19,6 +19,7 @@
     /* Text Configuration */
     --font-family:'Raleway', sans-serif;
     --font-size-title: 1.375rem;
+    --font-size-h2: 1.125rem;
     --font-weight-title: 700;
     --font-weight-p: 400;
 
@@ -30,7 +31,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 1.875rem;
     width: 100%;
 }
 header {
@@ -48,6 +48,15 @@ h1 {
     line-height: normal;
     padding: 0;
     margin: 0;
+}
+h2{
+    color: #000;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: var(--font-size-h2);
+    font-style: normal;
+    font-weight: var(--font-weight-title);
+    line-height: normal;
 }
 p{
     font-family: var(--font-family);
