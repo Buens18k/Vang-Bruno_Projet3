@@ -4,6 +4,13 @@
     padding: 0 3.125rem;
     box-sizing: border-box;
 }
+.headline{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    height: 3.3125rem;
+}
 .fa-solid {
     color: var(--main-color);
 }
