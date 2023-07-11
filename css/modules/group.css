@@ -27,12 +27,12 @@
 }
 
 /****** Hebergements And Populaires ***********/
-.cta-group {
+.cta-grp {
     display: flex;
     justify-content: space-between;
 }
 
-.cta-group section {
+.cta-grp section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
@@ -40,15 +40,27 @@
 }
 
 /****** Hebergements ***********/
-.hebergements {
+.hbgt {
     width: 65%;
+}
+.hbgt-main{
     display: flex;
-    /* padding: 1.875rem; */
+    padding: 1.875rem;
     flex-direction: column;
     align-items: flex-start;
     gap: 1.875rem;
     flex: 1 0 0;
     align-self: stretch;
+}
+.hbgt-ttle{
+    display: flex;
+    color: #000;
+    /* Title/Section */
+    font-family: Raleway;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 /****** Populaires ***********/
