@@ -43,6 +43,9 @@
 .hbgt {
     width: 65%;
 }
+.cta-hbgt{
+    display: flex;
+}
 .hbgt-main{
     display: flex;
     padding: 1.875rem;
@@ -61,7 +64,44 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    /* padding-bottom: ; */
 }
+.cta-hbgt-card{
+    display: grid;
+    grid-template-columns: repeat(3, 15.64583rem);
+    justify-content: center;
+    align-items: center;
+    gap: 1.875rem;
+}
+.hbgt-card{
+    display: flex;
+    padding-bottom: 0.94rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    flex: 1 0 0;
+    border-radius: 1.25rem;
+    background: #FFF;
+
+    /* Shadow/Card */
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
+}
+.hbgt-card img {
+    height: 7.75rem;
+    align-self: stretch;
+    border-radius: 1.25rem 1.25rem 0rem 0rem;
+    border: 5px solid var(--white, #FFF);
+}
+.hbgt-card-txt{
+    display: flex;
+    padding: 0rem 0.9375rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+}
+
+
 
 /****** Populaires ***********/
 .populaires {
