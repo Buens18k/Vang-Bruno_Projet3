@@ -1,0 +1,8 @@
+/* HEADLINE */
+.headline{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    height: 3.3125rem;
+}

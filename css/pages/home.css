@@ -8,4 +8,119 @@
     gap: 2.1875rem;
 
 }
+/* Section Info Group */
+.inf-grp{
+    /* Info group (Desktop) */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.1875rem;
+    align-self: stretch;
+}
+/****** Hebergements And Populaires ***********/
+.cta-grp {
+    display: flex;
+    justify-content: space-between;
+}
 
+.cta-grp section {
+    background-color: var(--main-bg-color);
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.section-title {
+    margin: 0;
+    font-size: 22px;
+}
+.euro {
+    font-weight: 700;
+}
+.neutralStar {
+    color: var(--main-bg-color)
+}
+/****** Hebergements ***********/
+.hbgt {
+    width: 65%;
+}
+.cta-main-hbgt{
+    display: flex;
+}
+.cta-hbgt{
+    display: flex;
+    flex-direction: column;
+    gap: 1.88rem;
+}
+.hbgt-main{
+    display: flex;
+    padding: 1.875rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.875rem;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+.hbgt-ttle{
+    display: flex;
+    color: #000;
+    /* Title/Section */
+    font-family: Raleway;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* padding-bottom: ; */
+}
+/****** Populaires ***********/
+.populaires {
+    width: 32%;
+}
+
+.populaires-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    .hebergements-and-populaires {
+        flex-direction: column;
+    }
+
+    .hebergements {
+        width: 100%;
+    }
+
+    .populaires {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .populaires-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .populaires-cards .card {
+        width: 30%;
+    }
+
+    .populaires-cards .card-title {
+        font-size: 14px;
+    }
+
+    .populaires-cards .card-subtitle {
+        font-size: 13px;
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    /* ... */
+}

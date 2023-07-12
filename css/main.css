@@ -2,13 +2,19 @@
 @import 'pages/home.css';
 
 /* Modules */
-@import 'modules/nav.css';
-@import 'modules/info-group.css';
+@import 'modules/menu.css';
 @import 'modules/group.css';
+
+@import 'modules/headline.css';
+@import 'modules/bar-sch.css';
+@import 'modules/bar-flt.css';
+@import 'modules/bar-inf.css';
+@import 'modules/card.css';
 
 /****** General ***********/
 * {
     font-family: var(--font-family);
+    /* Reset CSS */
     padding:0;
     margin:0;
     box-sizing: border-box;
@@ -94,6 +100,7 @@ p{
     padding: 0;
     margin: 0;
 }
+
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 

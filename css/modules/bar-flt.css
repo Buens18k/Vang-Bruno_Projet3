@@ -1,0 +1,27 @@
+/* Filter Bar */
+.ft-bar{
+    display: flex;
+    height: 3.125rem;
+    align-items: center;
+    gap: 0.9375rem;
+}
+.ft-bar-title {
+    display: flex;
+}
+.ft-bar-cta-btn{
+    display: flex;
+    gap: 0.9375rem;
+}
+.ft-bar-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.125rem;
+    padding: 0rem 1.1875rem;
+    gap: 0.625rem;
+    border: 0.125rem solid #F2F2F2;
+    border-radius: 30px;
+}
+.fa-solid {
+    color: var(--main-color);
+}
