@@ -8,17 +8,4 @@
     gap: 2.1875rem;
 
 }
-.headline{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.5rem;
-    height: 3.3125rem;
-}
-.sch-bar{
-    display: flex;
-    align-items: center;
-    width: 23.5625rem;
-    height: 3.0625rem;
-    gap: 1.5rem;
-}
+
