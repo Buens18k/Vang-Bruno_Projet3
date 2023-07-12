@@ -43,8 +43,13 @@
 .hbgt {
     width: 65%;
 }
+.cta-main-hbgt{
+    display: flex;
+}
 .cta-hbgt{
     display: flex;
+    flex-direction: column;
+    gap: 1.88rem;
 }
 .hbgt-main{
     display: flex;
@@ -100,7 +105,14 @@
     gap: 0.5rem;
     align-self: stretch;
 }
-
+.hbgt-card-stle{
+        /* Title/Filter */
+        font-family: Raleway;
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
 
 
 /****** Populaires ***********/
