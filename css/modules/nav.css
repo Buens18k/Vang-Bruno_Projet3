@@ -9,6 +9,9 @@
     width: 3.81813rem;
     height: 1.1875rem;
 }
+.menu {
+    display: flex;
+}
 .menu-nav {
     display: flex;
     justify-content: flex-end;
