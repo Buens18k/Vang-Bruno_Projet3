@@ -1,4 +1,4 @@
-/* Card Hébergement de Marseille */
+/* Card Hébergement à Marseille */
 .cta-hbgt-cards{
     display: grid;
     grid-template-columns: repeat(3, 15.64583rem);
@@ -104,3 +104,4 @@
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
+/* Card Activité */

@@ -82,7 +82,75 @@
     align-items: center;
 }
 
+/****** Activités ***********/
+.cta{
+    display: flex;
+    padding: 1.875rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.cta-acts{
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+}
+.cta-acts-ttle{
+    display: flex;
+    height: 1.87619rem;
+    align-self: stretch;
 
+}
+/* Title/Section */
+.cta-act-ttle h1{
+    display: flex;
+    font-family: Raleway;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #000;
+}
+.cta-acts-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 18.59375rem );
+    align-items: flex-start;
+    gap: 1.875rem;
+    align-self: stretch;
+}
+.cta-acts-card{
+    display: flex;
+    height: 27.4375rem;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 1.25rem;
+    /* Shadow/Card */
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
+}
+.cta-acts-card a {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.cta-act-img img{
+    display: flex;
+    height: 23.75rem;
+    width: 100%;
+    border-radius: 1.25rem 1.25rem 0rem 0rem;
+    object-fit: cover;
+}
+.cta-act-sstt{
+    display: flex;
+    padding: 1.25rem 1.1875rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+    align-self: stretch;
+}
+.cta-act-sstt h3{
+    display: flex;
+    justify-content: center;
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
