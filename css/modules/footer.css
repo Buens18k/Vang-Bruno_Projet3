@@ -2,7 +2,7 @@ footer{
     display: flex;
     width: 83.75rem;
     height: 10.1875rem;
-    background: var(--grey, #F2F2F2);
+    background: var(--color-background);
 }
 .cta-footer{
     display: flex;
@@ -12,8 +12,7 @@ footer{
 .cta-footer-main{
     display: flex;
     width: 100%;
-    border: 1px solid var(--grey, #F2F2F2);
-    /* box-shadow: -10px 3px 10px var(--grey, #F2F2F2); */
+    border: 1px solid var(--color-background);
 }
 .cta-ft-itm{
     display: flex;
@@ -28,11 +27,9 @@ footer{
     display: flex;
 }
 .cta-ft-itm h4{
-    color: #000;
-
-    /* Title/Filter */
-    font-family: Raleway;
-    font-size: 1.125rem;
+    color: var(--color-txt);
+    font-family: var(--font-family);
+    font-size: var(--font-size-h2);
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -42,12 +39,12 @@ footer{
 }
 .cta-ft-btn button{
     border: none;
-    color: #000;
+    color: var(--color-txt);
 
     /* Footer/Link */
-    font-family: Raleway;
-    font-size: 1rem;
+    font-family: var(--font-family);
+    font-size: var(--font-size-mini);
     font-style: normal;
-    font-weight: 400;
+    font-weight: var(--font-weight-mini);
     line-height: normal;
 }
