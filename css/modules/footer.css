@@ -1,0 +1,47 @@
+footer{
+    display: flex;
+    width: 83.75rem;
+    height: 10.1875rem;
+}
+.cta-footer{
+    display: flex;
+    width: 100%;
+
+}
+.cta-footer-main{
+    display: flex;
+    width: 100%;
+
+}
+.cta-ft-itm{
+    display: flex;
+    padding: 1.25rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.9375rem;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+.cta-ft-itm h4{
+    color: #000;
+
+    /* Title/Filter */
+    font-family: Raleway;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.cta-ft-btn button{
+    display: flex;
+    border: none;
+    background-color: white;
+    color: #000;
+
+    /* Footer/Link */
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

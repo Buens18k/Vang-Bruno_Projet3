@@ -22,6 +22,7 @@
 
   <body>
     <header>
+      <!--******************* Menu ************************-->
       <div class="menu">
         <a class="logo" href="index.html">
           <img src="/images/logo/Booki.png" alt="logo Booki" />
@@ -32,21 +33,23 @@
           <a class="menu-nav-itm active" href="#hbgt">
             <strong>Hébergements</strong>
           </a>
-          <a class="menu-nav-itm" href="#hbgt"><strong>Activités</strong></a>
+          <a class="menu-nav-itm" href="#activites"
+            ><strong>Activités</strong></a
+          >
         </nav>
       </div>
     </header>
     <main class="main-container">
-      <!-- Info Group -->
+      <!--************************************** Info Group ***************************-->
       <section class="inf-grp">
-        <!-- Headline -->
+        <!--** Headline **-->
         <div class="headline">
           <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
           <p>En plein centre-ville ou en pleine nature</p>
         </div>
-        <!-- Search Bar -->
+        <!--** Search Bar **-->
         <div class="schBar">
-          <!-- Logo -->
+          <!--** Logo **-->
           <div class="schBar-lg">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -66,8 +69,8 @@
               />
             </svg>
           </div>
-          <!-- Input -->
-          <form action="" method="get" class="schBar">
+          <!--** Input **-->
+          <form action="name" method="get" class="schBar">
             <div class="schBar-txt">
               <label for="Search"></label>
               <input
@@ -82,7 +85,7 @@
             </div>
           </form>
         </div>
-        <!-- Filter Bar -->
+        <!--** Filter Bar **-->
         <div class="ft-bar">
           <div class="ft-bar-title">
             <h2>Filtres</h2>
@@ -90,23 +93,23 @@
           <div class="ft-bar-cta-btn">
             <button class="ft-bar-btn">
               <i class="fa-solid fa-money-bill-wave"></i>
-              <div><strong>Économique</strong></div>
+              <p><strong>Économique</strong></p>
             </button>
             <button class="ft-bar-btn">
               <i class="fa-solid fa-person"></i>
-              <div><strong>Familial</strong></div>
+              <p><strong>Familial</strong></p>
             </button>
             <button class="ft-bar-btn">
               <i class="fa-solid fa-heart"></i>
-              <div><strong>Romantique</strong></div>
+              <p><strong>Romantique</strong></p>
             </button>
             <button class="ft-bar-btn">
               <i class="fa-sharp fa-solid fa-fire"></i>
-              <div><strong>Nos pépites</strong></div>
+              <p><strong>Nos pépites</strong></p>
             </button>
           </div>
         </div>
-        <!-- Info Bar -->
+        <!--** Info Bar **-->
         <div class="inf-bar">
           <div class="inf-bar-logo">
             <svg
@@ -137,9 +140,9 @@
           </div>
         </div>
       </section>
-      <!-- Section Group -->
+      <!--***************** Section Group ***************-->
       <div class="cta-grp">
-        <!-- Offers/Main -->
+        <!--** Offers/Main **-->
         <section id="hbgt" class="cta-main-hbgt">
           <div class="cta-hbgt">
             <div class="hbgt-ttle">
@@ -384,7 +387,7 @@
             </div>
           </div>
         </section>
-        <!-- Offers/Sponsored -->
+        <!--** Offers/Sponsored **-->
         <section class="populaires">
           <div class="populaires-title">
             <h2 class="section-title">Les plus populaires</h2>
@@ -477,8 +480,8 @@
           </div>
         </section>
       </div>
-      <!-- Section Activités -->
-      <section class="cta">
+      <!--********************** Section **************Activités -->
+      <section id="activites" class="cta">
         <div class="cta-acts">
           <div class="cta-acts-ttle">
             <h1>Activités à Marseille</h1>
@@ -488,7 +491,10 @@
               <article class="cta-acts-card">
                 <a href="">
                   <div class="cta-act-img">
-                    <img src="/images/activites/reno-laithienne.jpg" alt=" photo Vieux-Port" />
+                    <img
+                      src="/images/activites/reno-laithienne.jpg"
+                      alt=" photo Vieux-Port"
+                    />
                   </div>
                   <div class="cta-act-sstt"><h3>Vieux-Port</h3></div>
                 </a>
@@ -498,7 +504,10 @@
               <article class="cta-acts-card">
                 <a href="">
                   <div class="cta-act-img">
-                    <img src="/images/activites/paul-hermann.jpg" alt=" photo Fort de Pomègues" />
+                    <img
+                      src="/images/activites/paul-hermann.jpg"
+                      alt=" photo Fort de Pomègues"
+                    />
                   </div>
                   <div class="cta-act-sstt"><h3>Fort de Pomègues</h3></div>
                 </a>
@@ -508,9 +517,14 @@
               <article class="cta-acts-card">
                 <a href="">
                   <div class="cta-act-img">
-                    <img src="/images/activites/kilyan-sockalingum.jpg" alt="photo Parc national des Calanques" />
+                    <img
+                      src="/images/activites/kilyan-sockalingum.jpg"
+                      alt="photo Parc national des Calanques"
+                    />
                   </div>
-                  <div class="cta-act-sstt"><h3>Parc national des Calanques</h3></div>
+                  <div class="cta-act-sstt">
+                    <h3>Parc national des Calanques</h3>
+                  </div>
                 </a>
               </article>
             </div>
@@ -518,9 +532,14 @@
               <article class="cta-acts-card">
                 <a href="">
                   <div class="cta-act-img">
-                    <img src="/images/activites/florian-wehde.jpg" alt="photo Notre-Dame-de-la-Garde" />
+                    <img
+                      src="/images/activites/florian-wehde.jpg"
+                      alt="photo Notre-Dame-de-la-Garde"
+                    />
                   </div>
-                  <div class="cta-act-sstt"><h3>Notre-Dame-de-la-Garde</h3></div>
+                  <div class="cta-act-sstt">
+                    <h3>Notre-Dame-de-la-Garde</h3>
+                  </div>
                 </a>
               </article>
             </div>
@@ -528,6 +547,44 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <!--*********** Footer **************-->
+    <footer>
+      <section class="cta-footer">
+        <div class="cta-footer-main">
+          <div class="cta-ft-itm">
+            <div>
+              <h4>À propos</h4>
+            </div>
+            <div class="cta-ft-btn">
+              <button>Fonction du site</button>
+            </div>
+            <div class="cta-ft-btn">
+              <button>Condition générales</button>
+            </div>
+            <div class="cta-ft-btn">
+              <button>Données et confidentialité</button>
+            </div>
+          </div>
+          <div class="cta-ft-itm">
+            <div><h4>Nos hébergements</h4></div>
+            <div class="cta-ft-btn">
+              <button>Charte qualité</button>
+            </div>
+            <div class="cta-ft-btn">
+              <button>Proposer votre hôtel</button>
+            </div>
+          </div>
+          <div class="cta-ft-itm">
+              <h4>Assistance</h4>
+            <div class="cta-ft-btn">
+                <button>Centre d'aide</button>
+            </div>
+            <div class="cta-ft-btn">
+                <button>Nous contacter</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
