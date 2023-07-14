@@ -3,7 +3,6 @@ footer{
     width: 83.75rem;
     height: 10.1875rem;
     background: var(--grey, #F2F2F2);
-    margin-top: 2.19rem;
 }
 .cta-footer{
     display: flex;
@@ -14,7 +13,7 @@ footer{
     display: flex;
     width: 100%;
     border: 1px solid var(--grey, #F2F2F2);
-    box-shadow: -10px 3px 10px var(--grey, #F2F2F2);
+    /* box-shadow: -10px 3px 10px var(--grey, #F2F2F2); */
 }
 .cta-ft-itm{
     display: flex;
