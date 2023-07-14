@@ -2,6 +2,8 @@ footer{
     display: flex;
     width: 83.75rem;
     height: 10.1875rem;
+    background: var(--grey, #F2F2F2);
+    margin-top: 2.19rem;
 }
 .cta-footer{
     display: flex;
@@ -11,7 +13,8 @@ footer{
 .cta-footer-main{
     display: flex;
     width: 100%;
-
+    border: 1px solid var(--grey, #F2F2F2);
+    box-shadow: -10px 3px 10px var(--grey, #F2F2F2);
 }
 .cta-ft-itm{
     display: flex;
@@ -21,6 +24,9 @@ footer{
     gap: 0.9375rem;
     flex: 1 0 0;
     align-self: stretch;
+}
+.cta-ft-ttle{
+    display: flex;
 }
 .cta-ft-itm h4{
     color: #000;
@@ -32,10 +38,11 @@ footer{
     font-weight: 700;
     line-height: normal;
 }
-.cta-ft-btn button{
+.cta-ft-btn{
     display: flex;
+}
+.cta-ft-btn button{
     border: none;
-    background-color: white;
     color: #000;
 
     /* Footer/Link */
