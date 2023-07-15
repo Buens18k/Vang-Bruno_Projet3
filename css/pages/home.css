@@ -86,17 +86,23 @@
     padding: 1.875rem;
     flex-direction: column;
     align-items: flex-start;
+    width: 100%;
 }
 .cta-acts{
     display: flex;
     flex-direction: column;
     gap: 1.875rem;
+    width: 100%;
 }
 .cta-acts-ttle{
     display: flex;
     height: 1.87619rem;
     align-self: stretch;
 
+}
+.cta-acts-cta{
+    display: flex;
+    width: 100%;
 }
 /* Title/Section */
 .cta-act-ttle h1{
@@ -108,7 +114,30 @@
     line-height: normal;
     color: var(--color-txt);
 }
-
+.cta-act-img{
+    display: flex;
+    width: 100%;
+}
+.cta-act-img img{
+    display: flex;
+    height: 23.75rem;
+    width: 100%;
+    border-radius: 1.25rem 1.25rem 0rem 0rem;
+    object-fit: cover;
+}
+.cta-act-sstt{
+    display: flex;
+    padding: 1.25rem 1.1875rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+    align-self: stretch;
+    width: 100%;
+}
+.cta-act-sstt h3{
+    display: flex;
+    justify-content: center;
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
