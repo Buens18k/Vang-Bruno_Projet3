@@ -32,7 +32,20 @@
     color: black;
     height: 2.1875rem;
 }
- .active {
-    color: var(--main-color);
-    border-top: 2px solid var(--main-color);
- }
+.active {
+color: var(--main-color);
+border-top: 2px solid var(--main-color);
+}
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) { 
+
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    /* ... */
+}

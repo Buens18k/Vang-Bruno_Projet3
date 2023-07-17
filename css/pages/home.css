@@ -104,7 +104,6 @@
     display: flex;
     width: 100%;
 }
-/* Title/Section */
 .cta-act-ttle h1{
     display: flex;
     font-family: var(--font-family);
@@ -143,14 +142,26 @@
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-    .hebergements-and-populaires {
+    /* Hébergements et Populaires */
+    .cta-grp section{
         flex-direction: column;
     }
-
+    .cta-grp {
+        flex-direction: column;
+    }
+    /* Hébergements */
     .hbgt {
         width: 100%;
     }
+    .cta-main-hbgt{
+        flex-direction: column;
+        width: 100%;
+    }
+    .cta-hbgt {
+        width: 100%;
+    }
 
+    /* Populaires */
     .populaires {
         width: 100%;
         margin-top: 50px;
@@ -172,6 +183,28 @@
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+
+    /* Activités à Marseilles */
+    .cta {
+        display: flex;
+        width: 100%;
+    }
+    .cta-acts {
+        display: flex;
+    }
+    .cta-acts-cta{
+        width: 100%;
+        width: 12.09375rem;
+        height: 12.5rem;
+    }
+    .cta-act-img {
+        height: 12.5rem;
+        width: 12.09375rem;
+    }
+    .cta-act-img img{
+        width: 12.09375rem;
+        height: 12.5rem;
     }
 }
 

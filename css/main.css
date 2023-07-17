@@ -105,12 +105,21 @@ p{
 }
 
 
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) { 
 
+    body{
+        gap: 1.875rem;
+        font-family: var(--font-family);
+        /* Reset CSS */
+        padding:0;
+        margin:0;
+        box-sizing: border-box;
+    }
 }
 
 /* Small devices (phones, less than 768px) */

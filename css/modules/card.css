@@ -16,6 +16,7 @@
 
     /* Shadow/Card */
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
+    width: 100%;
 }
 .hbgt-card a {
     display: flex;
@@ -129,3 +130,28 @@
     text-decoration: none;
 }
 
+@media (max-width: 1024px){
+    /* Hébergements */
+    .cta-hbgt-cards{
+        display: grid;
+        grid-template-columns: repeat(3, 12.95313rem);
+    }
+    /* Activités */
+    .cta-acts-cards {
+        display: grid;
+        grid-template-columns: repeat(4, 12.09375rem);
+        width: 100%;
+    }
+    .cta-acts-card{
+        display: flex;
+        height: 12.5rem;
+        width: 12.09375rem;
+        width: 100%;
+    }
+    .cta-acts-card a{
+        display: flex;
+        height: 12.5rem;
+        width: 12.09375rem;
+        width: 100%;
+    }
+}
