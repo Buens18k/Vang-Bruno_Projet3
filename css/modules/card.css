@@ -140,7 +140,7 @@
     .cta-acts-cards {
         display: grid;
         grid-template-columns: repeat(4, 12.09375rem);
-        width: 100%;
+
     }
     .cta-acts-card{
         display: flex;
