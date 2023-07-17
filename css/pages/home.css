@@ -81,13 +81,13 @@
 }
 
 /****** Activités ***********/
-.cta{
+/* .cta{
     display: flex;
     padding: 1.875rem;
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-}
+} */
 .cta-acts{
     display: flex;
     flex-direction: column;
@@ -100,10 +100,10 @@
     align-self: stretch;
 
 }
-.cta-acts-cta{
+/* .cta-acts-cta{
     display: flex;
     width: 100%;
-}
+} */
 .cta-act-ttle h1{
     display: flex;
     font-family: var(--font-family);
@@ -113,11 +113,11 @@
     line-height: normal;
     color: var(--color-txt);
 }
-.cta-act-img{
+/* .cta-act-img{
     display: flex;
     width: 100%;
-}
-.cta-act-img img{
+} */
+.cta-acts-card img{
     display: flex;
     height: 23.75rem;
     width: 100%;

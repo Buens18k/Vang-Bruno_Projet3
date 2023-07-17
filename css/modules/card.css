@@ -106,7 +106,7 @@
 /***************** Card Activité **********************/
 .cta-acts-cards{
     display: grid;
-    grid-template-columns: repeat(4, 22%);
+    grid-template-columns: repeat(4, 23%);
     align-items: flex-start;
     gap: 1.875rem;
     align-self: stretch;
@@ -130,11 +130,13 @@
     text-decoration: none;
 }
 
+/******************** Reponsive ************************/
 @media (max-width: 1024px){
     /* Hébergements */
     .cta-hbgt-cards{
         display: grid;
         grid-template-columns: repeat(3, 30%);
+        
     }
     /* Populaires */
     .populaires-cards {
@@ -156,31 +158,45 @@
     }
     /* Activités */
     .cta-acts-cards {
-        display: grid;
+        /* display: grid; */
         grid-template-columns: repeat(4, 22%);
-        gap: 2rem;
+        gap: 1.88rem;
         /* align-items: flex-start; */
         width: 100%;
+        height: 16.875rem;
     }
     .cta-acts-card{
         display: flex;
-        height: 12.5rem;
+        height: 16.875rem;
         /* width: 12.09375rem; */
         width: 100%;
+        border-radius: 1.25rem;
+
+        /* Shadow/Card */
+        box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
     }
     .cta-acts-card a{
         display: flex;
-        height: 12.5rem;
-        width: 12.09375rem;
+        height: 16.875rem;
+        /* width: 12.09375rem; */
         width: 100%;
     }
-    .cta-act-img {
+    /* .cta-act-img { */
+        /* width: 12.09375rem;
+        /* width: 100%; */
+    /* } */
+    .cta-acts-card img{
+        /* width: 12.09375rem; */
         height: 12.5rem;
-        width: 12.09375rem;
+    }
+    .cta-act-sstt{
+        display: flex;
+        justify-content: center;
+        height: 4.375rem;
         width: 100%;
     }
-    .cta-act-img img{
-        width: 12.09375rem;
-        height: 12.5rem;
+    .cta-act-sstt h3 {
+        width: 100%;
+        /* height: 4.375rem; */
     }
 }

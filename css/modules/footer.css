@@ -10,11 +10,7 @@ footer{
     flex-direction: row;
     width: 100%;
 }
-.cta-footer-main{
-    display: flex;
-    width: 100%;
-    border: 1px solid var(--color-background);
-}
+
 .cta-ft-itm{
     display: flex;
     padding: 1.25rem;
@@ -48,4 +44,14 @@ footer{
     font-style: normal;
     font-weight: var(--font-weight-mini);
     line-height: normal;
+}
+
+@media (max-width: 1024px){
+
+    .cta-footer{
+        display: flex;
+        align-items: flex-start;
+        gap: 1.875rem;
+        align-self: stretch;
+    }
 }
