@@ -113,6 +113,8 @@ p{
 @media (max-width: 1024px) { 
 
     body{
+        display: flex;
+        width: 100%;
         gap: 1.875rem;
         font-family: var(--font-family);
         /* Reset CSS */

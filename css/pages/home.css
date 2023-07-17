@@ -167,23 +167,7 @@
         margin-top: 50px;
     }
 
-    .populaires-cards {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
 
-    .populaires-cards .card {
-        width: 30%;
-    }
-
-    .populaires-cards .card-title {
-        font-size: 14px;
-    }
-
-    .populaires-cards .card-subtitle {
-        font-size: 13px;
-    }
 
     /* Activités à Marseilles */
     .cta {
@@ -198,14 +182,7 @@
         width: 12.09375rem;
         height: 12.5rem;
     }
-    .cta-act-img {
-        height: 12.5rem;
-        width: 12.09375rem;
-    }
-    .cta-act-img img{
-        width: 12.09375rem;
-        height: 12.5rem;
-    }
+
 }
 
 /* Small devices (phones, less than 768px) */
