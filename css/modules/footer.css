@@ -38,7 +38,6 @@ footer{
     text-decoration: none;
     color: var(--color-txt);
 
-    /* Footer/Link */
     font-family: var(--font-family);
     font-size: var(--font-size-mini);
     font-style: normal;
@@ -51,12 +50,7 @@ footer{
     footer{
         width: 90%;
     }
-    
     .cta-footer{
-        /* display: flex; */
-        /* align-items: flex-start; */
         gap: 1.875rem;
-        /* align-self: stretch; */
-        /* width: 100%; */
     }
 }

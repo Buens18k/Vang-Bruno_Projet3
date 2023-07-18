@@ -10,7 +10,6 @@
 }
 /* Section Info Group */
 .inf-grp{
-    /* Info group (Desktop) */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -81,13 +80,7 @@
 }
 
 /****** Activités ***********/
-/* .cta{
-    display: flex;
-    padding: 1.875rem;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
-} */
+
 .cta-acts{
     display: flex;
     flex-direction: column;
@@ -100,10 +93,7 @@
     align-self: stretch;
 
 }
-/* .cta-acts-cta{
-    display: flex;
-    width: 100%;
-} */
+
 .cta-act-ttle h1{
     display: flex;
     font-family: var(--font-family);
@@ -113,10 +103,7 @@
     line-height: normal;
     color: var(--color-txt);
 }
-/* .cta-act-img{
-    display: flex;
-    width: 100%;
-} */
+
 .cta-acts-card img{
     display: flex;
     height: 23.75rem;
@@ -137,7 +124,6 @@
     display: flex;
     justify-content: center;
 }
-/* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
@@ -167,8 +153,6 @@
         margin-top: 50px;
     }
 
-
-
     /* Activités à Marseilles */
     .cta {
         display: flex;
@@ -176,13 +160,13 @@
     }
     .cta-acts {
         display: flex;
+        padding: 1.875rem;
     }
     .cta-acts-cta{
         width: 100%;
         width: 12.09375rem;
         height: 12.5rem;
     }
-
 }
 
 /* Small devices (phones, less than 768px) */
