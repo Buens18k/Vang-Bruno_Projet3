@@ -1,5 +1,5 @@
 /* Search Bar */
-.schBar{
+.cta-search-bar{
     display: flex;
     width: 23.5625rem;
     height: 3.0625rem;
@@ -13,13 +13,13 @@
     height: 3.0625rem;
     gap: 1.5rem;
 }
-.schBar-lg{
+.cta-search-bar-lg{
     display: flex;
     width: 3.125rem;
     height: 3.0625rem;
     flex-shrink: 0;
 }
-.schBar-txt input{
+.cta-search-bar-txt input{
     display: flex;
     color: var(--black, #000);
     text-align: center;
@@ -30,12 +30,12 @@
     line-height: normal;
     border: none;
 }
-.schBar-btn{
+.cta-search-bar-btn{
     display: flex;
     height: 3.0625rem;
     align-items: center;
 }
-.schBar-btn input{
+.cta-search-bar-btn button{
     display: flex;
     padding: 0.9375rem 1rem;
     border-radius: 0rem 0.9375rem 0.9375rem 0rem;
@@ -48,4 +48,27 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+.glass{
+    display: none;
+}
+
+@media (max-width: 767.98px) {
+    .cta-search-bar{
+        gap: 0;
+        justify-content: center;
+        width: 100%;
+        
+    }
+    .cta-search-bar-btn button{
+        border-radius: 0.9375rem;
+        border: 1px solid var(--blue, #0065FC);
+        background: var(--blue, #0065FC);
+    }
+    .search-txt{
+        display: none;
+    }
+    .glass{
+        display: block;  
+    }
 }

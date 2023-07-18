@@ -27,14 +27,14 @@
     font-family: var(--body-font);
     font-weight: 400;
     font-style: normal;
-    font-size: var(--font-size-menu);
+    font-size: var(--font-size-mini);
     text-decoration: none;
     color: black;
     height: 2.1875rem;
 }
 .active {
-color: var(--main-color);
-border-top: 2px solid var(--main-color);
+    color: var(--main-color);
+    border-top: 2px solid var(--main-color);
 }
 
 /****** Media queries ***********/
@@ -46,5 +46,23 @@ border-top: 2px solid var(--main-color);
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
-
+    .menu{
+        justify-content: center;
+        
+    }
+    .menu-nav{
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+        gap: 0;
+    }
+    .menu-nav-itm{
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 0.94rem;
+    }
+    .active{
+        border-top: none;
+        border-bottom: 2px solid var(--main-color);
+    }
 }

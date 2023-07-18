@@ -107,11 +107,12 @@
 .cta-acts-cards{
     display: grid;
     grid-template-columns: repeat(4, 23%);
+    justify-content: center;
     align-items: flex-start;
     gap: 1.875rem;
     align-self: stretch;
     width: 100%;
-    
+    /* height: 27.4375rem; */
 }
 .cta-acts-card{
     display: flex;
@@ -121,6 +122,7 @@
     border-radius: 1.25rem;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
     width: 100%;
+    height: auto;
 }
 .cta-acts-card a {
     display: flex;
@@ -157,8 +159,8 @@
     }
     /* Activités */
     .cta-acts-cards {
-        grid-template-columns: repeat(4, 22%);
-        gap: 1.88rem;
+        grid-template-columns: repeat(4, 23%);
+        gap: 1rem;
         width: 100%;
     }
     .cta-acts-card{

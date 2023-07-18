@@ -50,10 +50,14 @@
         align-items: flex-start;
         height: 5.6875rem;
         gap: 1.25rem;
+        width: 100%;
     }
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+    .ft-bar{
+        width: 100%;
+    }
 }
