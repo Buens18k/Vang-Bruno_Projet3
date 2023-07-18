@@ -48,10 +48,15 @@ footer{
 
 @media (max-width: 1024px){
 
+    footer{
+        width: 90%;
+    }
+    
     .cta-footer{
-        display: flex;
-        align-items: flex-start;
+        /* display: flex; */
+        /* align-items: flex-start; */
         gap: 1.875rem;
-        align-self: stretch;
+        /* align-self: stretch; */
+        /* width: 100%; */
     }
 }

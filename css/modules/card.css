@@ -163,7 +163,7 @@
         gap: 1.88rem;
         /* align-items: flex-start; */
         width: 100%;
-        height: 16.875rem;
+        /* height: 16.875rem; */
     }
     .cta-acts-card{
         display: flex;
@@ -177,16 +177,10 @@
     }
     .cta-acts-card a{
         display: flex;
-        height: 16.875rem;
-        /* width: 12.09375rem; */
         width: 100%;
     }
-    /* .cta-act-img { */
-        /* width: 12.09375rem;
-        /* width: 100%; */
-    /* } */
+
     .cta-acts-card img{
-        /* width: 12.09375rem; */
         height: 12.5rem;
     }
     .cta-act-sstt{
@@ -197,6 +191,6 @@
     }
     .cta-act-sstt h3 {
         width: 100%;
-        /* height: 4.375rem; */
+        height: 4.375rem;
     }
 }
