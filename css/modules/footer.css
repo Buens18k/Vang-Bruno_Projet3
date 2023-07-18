@@ -58,6 +58,7 @@ footer{
 @media (max-width: 767.98px){
     footer{
         flex-direction: column;
+        background-color: var(--color-background-white);
     }
     .cta-footer {
         flex-direction: column;

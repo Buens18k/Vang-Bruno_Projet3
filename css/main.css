@@ -127,6 +127,7 @@ p{
     body{
         padding: 0;
         width: 23.4375rem;
+        height: auto;
     }
     header{
         flex-direction: column;

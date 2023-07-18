@@ -187,13 +187,21 @@
     .inf-grp{
         padding: 0rem 1.25rem;
         align-items: flex-start;
+        height: 27rem;
     }
 
     /* Hbgt & Pop */
     .cta-grp {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .cta-grp .populaires{
         background: var(--color-background-white);
+        margin-top: 0;
     }
+    }
+    /* Activités */
+    .cta-acts{
+        flex-direction: column;
+    }
+
 }
