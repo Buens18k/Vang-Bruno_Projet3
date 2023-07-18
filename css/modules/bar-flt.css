@@ -10,6 +10,8 @@
 }
 .ft-bar-cta-btns{
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
     gap: 0.9375rem;
 }
 .ft-bar-cta-btns button{
@@ -17,7 +19,7 @@
 }
 .ft-bar-btn{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     height: 3.125rem;
     padding: 0rem 1.1875rem;
@@ -48,7 +50,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        height: 5.6875rem;
+        height: 10.0625rem;
         gap: 1.25rem;
         width: 100%;
     }
@@ -59,5 +61,13 @@
     /* ... */
     .ft-bar{
         width: 100%;
+    }
+    .ft-bar-btn{
+        display: flex;
+        height: 3.125rem;
+        padding: 0.25rem 1.1875rem;
+        align-items: center;
+        gap: 0.625rem;
+        flex: 1 0 0;
     }
 }

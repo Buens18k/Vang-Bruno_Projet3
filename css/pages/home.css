@@ -176,9 +176,15 @@
     .main-container{
         padding: 0;
     }
+
     .inf-grp{
         padding: 0rem 1.25rem;
-        flex-direction: column;
         align-items: flex-start;
+    }
+
+    /* Hbgt & Pop */
+    .cta-grp {
+        
+        flex-direction: column;
     }
 }

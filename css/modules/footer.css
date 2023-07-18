@@ -54,3 +54,12 @@ footer{
         gap: 1.875rem;
     }
 }
+
+@media (max-width: 767.98px){
+    footer{
+        flex-direction: column;
+    }
+    .cta-footer {
+        flex-direction: column;
+    }
+}

@@ -191,3 +191,9 @@
         height: 4.375rem;
     }
 }
+
+@media (max-width: 767.98px) {
+    .cta-hbgt-cards{
+        grid-template-columns: repeat(1, 100%);
+    }
+}
