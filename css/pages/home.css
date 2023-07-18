@@ -28,6 +28,7 @@
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
+    height: 100%;
 }
 .section-title {
     margin: 0;
@@ -45,11 +46,14 @@
 }
 .cta-main-hbgt{
     display: flex;
+    flex-wrap: wrap;
 }
 .cta-hbgt{
     display: flex;
     flex-direction: column;
     gap: 1.88rem;
+    
+
 }
 .hbgt-main{
     display: flex;
@@ -129,6 +133,9 @@
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    .inf-grp{
+        height: 20.125rem;
+    }
     /* Hébergements et Populaires */
     .cta-grp section{
         flex-direction: column;
@@ -184,7 +191,9 @@
 
     /* Hbgt & Pop */
     .cta-grp {
-        
         flex-direction: column;
+    }
+    .cta-grp .populaires{
+        background: var(--color-background-white);
     }
 }

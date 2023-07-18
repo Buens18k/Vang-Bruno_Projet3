@@ -196,4 +196,11 @@
     .cta-hbgt-cards{
         grid-template-columns: repeat(1, 100%);
     }
+    .populaires-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .populaires-cards .card{
+        width: 100%;
+    }
 }

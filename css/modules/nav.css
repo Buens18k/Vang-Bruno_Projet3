@@ -40,7 +40,9 @@
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) { 
-
+    .logo{
+        padding: 1.875rem 3.125rem;
+    }
 }
 
 /* Small devices (phones, less than 768px) */

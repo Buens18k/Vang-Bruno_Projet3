@@ -27,6 +27,7 @@
     --filter-bg-color: #DEEBFF;
     --color-txt: #000;
     --color-background: var(--grey, #F2F2F2);
+    --color-background-white: white;
 
     /* Text Configuration */
     --font-family:'Raleway', sans-serif;

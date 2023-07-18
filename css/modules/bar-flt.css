@@ -40,6 +40,9 @@
 .fa-solid {
     color: var(--main-color);
 }
+.fa-solid-grey{
+    color: var(--color-background);
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
