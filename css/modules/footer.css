@@ -58,7 +58,7 @@ footer{
 @media (max-width: 767.98px){
     footer{
         flex-direction: column;
-        background-color: var(--color-background-white);
+        background-color: var(--color-background);
         padding: 1.875rem;
         height: 28.8125rem;
         width: 100%;
