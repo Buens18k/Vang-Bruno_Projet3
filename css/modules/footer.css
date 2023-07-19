@@ -59,8 +59,18 @@ footer{
     footer{
         flex-direction: column;
         background-color: var(--color-background-white);
+        padding: 1.875rem;
+        height: 28.8125rem;
+        width: 100%;
     }
     .cta-footer {
         flex-direction: column;
+        height: 28.8125rem;
+        gap: 3.12rem;
+    }
+    .cta-ft-itm{
+        height: 7.6875rem;
+        padding: 0;
+        
     }
 }

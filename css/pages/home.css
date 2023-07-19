@@ -182,6 +182,7 @@
     /* ... */
     .main-container{
         padding: 0;
+        padding-top: 1.88rem;
     }
 
     .inf-grp{
@@ -194,14 +195,15 @@
     .cta-grp {
         flex-direction: column-reverse;
     }
+    .cta-grp section{
+        border-radius: 0;
+    }
     .cta-grp .populaires{
         background: var(--color-background-white);
         margin-top: 0;
     }
-    }
     /* Activités */
-    .cta-acts{
+    .cta-acts {
         flex-direction: column;
     }
-
 }
