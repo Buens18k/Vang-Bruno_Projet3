@@ -20,9 +20,6 @@ footer{
     flex: 1 0 0;
     align-self: stretch;
 }
-.cta-ft-ttle{
-    display: flex;
-}
 .cta-ft-itm h4{
     color: var(--color-txt);
     font-family: var(--font-family);
@@ -31,19 +28,23 @@ footer{
     font-weight: 700;
     line-height: normal;
 }
-.cta-ft-btn{
+.cta-ft-itm ul{
     display: flex;
+    flex-direction: column;
+    gap: 0.94rem;
 }
-.cta-ft-btn a{
+.cta-ft-itm li{
+    list-style-type: none;
+}
+.cta-ft-itm a{
     text-decoration: none;
-    color: var(--color-txt);
-
-    font-family: var(--font-family);
-    font-size: var(--font-size-mini);
+    color: black;
+    font-family: Raleway;
+    font-size: 1rem;
     font-style: normal;
-    font-weight: var(--font-weight-mini);
-    line-height: normal;
+    font-weight: 400;
 }
+
 
 @media (max-width: 1024px){
 
@@ -62,15 +63,10 @@ footer{
         padding: 1.875rem;
         height: 28.8125rem;
         width: 100%;
-    }
-    .cta-footer {
-        flex-direction: column;
-        height: 28.8125rem;
         gap: 3.12rem;
     }
     .cta-ft-itm{
         height: 7.6875rem;
         padding: 0;
-        
     }
 }

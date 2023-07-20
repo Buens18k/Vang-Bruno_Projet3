@@ -19,17 +19,17 @@
 /****** Hebergements And Populaires ***********/
 .cta-grp {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     gap: 2.5rem ;
 }
 
 .cta-grp section {
-    background-color: var(--main-bg-color);
     border-radius: 20px;
-    padding: 30px;
+    padding: 1.875rem;
     box-sizing: border-box;
     height: 100%;
 }
+
 .section-title {
     margin: 0;
     font-size: 22px;
@@ -47,13 +47,14 @@
 .cta-main-hbgt{
     display: flex;
     flex-wrap: wrap;
+    background-color: var(--main-bg-color);
+    width: 65%;
 }
 .cta-hbgt{
     display: flex;
     flex-direction: column;
     gap: 1.88rem;
-    
-
+    width: 100%;
 }
 .hbgt-main{
     display: flex;
@@ -76,6 +77,7 @@
 /****** Populaires ***********/
 .populaires {
     width: 32%;
+    background-color: var(--main-bg-color);
 }
 
 .populaires-title {
@@ -91,6 +93,7 @@
     flex-direction: column;
     gap: 1.875rem;
     width: 100%;
+    padding: 1.875rem;
 }
 .cta-acts-ttle{
     display: flex;
@@ -137,11 +140,9 @@
         height: 20.125rem;
     }
     /* Hébergements et Populaires */
-    .cta-grp section{
-        flex-direction: column;
-    }
     .cta-grp {
         flex-direction: column;
+        gap: 3.125rem;
     }
     /* Hébergements */
     .hbgt {
@@ -158,9 +159,8 @@
     /* Populaires */
     .populaires {
         width: 100%;
-        margin-top: 50px;
+        /* margin-top: 50px; */
     }
-
     /* Activités à Marseilles */
     .cta {
         display: flex;
@@ -182,7 +182,6 @@
     /* ... */
     .main-container{
         padding: 0;
-        /* padding-top: 1.88rem; */
     }
 
     .inf-grp{
@@ -194,16 +193,18 @@
     /* Hbgt & Pop */
     .cta-grp {
         flex-direction: column-reverse;
+        gap: 0.94rem;
     }
     .cta-grp section{
         border-radius: 0;
     }
-    .cta-grp .populaires{
-        background: var(--color-background-white);
+    .cta-main-hbgt{
+        background-color: var(--color-background-white);
         margin-top: 0;
     }
     /* Activités */
     .cta-acts {
         flex-direction: column;
+        width: 100%;
     }
 }
