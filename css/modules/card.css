@@ -66,6 +66,7 @@
     display: flex;
     text-decoration: none;
     color: var(--color-txt);
+    width: 100%;
 }
 .card img {
     object-fit: cover;
