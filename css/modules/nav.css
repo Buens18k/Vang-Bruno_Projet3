@@ -25,16 +25,16 @@
     justify-content: flex-end;
     align-items: flex-end;
     font-family: var(--body-font);
-    font-weight: 400;
+    font-weight: var(--font-weight-mini);
     font-style: normal;
     font-size: var(--font-size-mini);
     text-decoration: none;
-    color: black;
+    color: var(--color-tx);
     height: 2.1875rem;
 }
 .active {
     color: var(--main-color);
-    border-top: 2px solid var(--main-color);
+    border-top: 0.125rem solid var(--main-color);
 }
 
 /****** Media queries ***********/
@@ -65,6 +65,6 @@
     }
     .active{
         border-top: none;
-        border-bottom: 2px solid var(--main-color);
+        border-bottom: 0.125rem solid var(--main-color);
     }
 }

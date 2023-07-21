@@ -1,4 +1,4 @@
-/****************** Card Hébergement à Marseille *******************************/
+/****************** Cards Hébergements *******************************/
 .cta-hbgt-cards{
     display: grid;
     grid-template-columns: repeat(3, 32%);
@@ -14,7 +14,7 @@
     flex-direction: column;
     align-items: center;
     border-radius: 1.25rem;
-    background: #FFF;
+    background: var(--color-background-white);
 
     /* Shadow/Card */
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
@@ -35,7 +35,7 @@
     height: 7.75rem;
     align-self: stretch;
     border-radius: 1.25rem 1.25rem 0rem 0rem;
-    border: 5px solid var(--white, #FFF);
+    border: 0.313rem solid var(--color-background-white);
     object-fit: cover ;
 }
 .hbgt-card-txt{
@@ -55,11 +55,11 @@
         border: none;
  
 }
-/****************************** Card Populaire **************************/
+/****************************** Cards Populaires **************************/
 .card {
-    background-color: white;
+    background-color: var(--color-background-white);
     border-radius: 1.25rem;
-    padding: 5px;
+    padding: 0.313rem;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 .card a {
@@ -76,19 +76,19 @@
 }
 .populaires-cards .card {
     display: flex;
-    margin-top: 33px;
+    margin-top: 2.063rem;
 }
 
 .populaires-cards img {
     width: 33%;
-    height: 136px;
+    height: 8.5rem;
     border-top-left-radius: 1.25rem;
     border-bottom-left-radius: 1.25rem;
 }
 
 .populaires-cards .card-content {
     width: 67%;
-    padding-left: 15px;
+    padding-left: 0.938rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -96,8 +96,8 @@
 }
 
 .populaires-cards .card-title {
-    margin-top: 10px;
-    margin-bottom: 4px;
+    margin-top: 0.625rem;
+    margin-bottom: 0.25rem;
 }
 
 .populaires-cards .card-subtitle {
@@ -105,7 +105,7 @@
 }
 
 .populaires-cards .card-rating {
-    margin-bottom: 5px;
+    margin-bottom: 0.313rem;
 }
 /***************** Card Activité **********************/
 .cta-acts-cards{
@@ -116,7 +116,6 @@
     gap: 1.875rem;
     align-self: stretch;
     width: 100%;
-    /* height: 27.4375rem; */
 }
 .cta-acts-card{
     display: flex;
@@ -135,7 +134,8 @@
     text-decoration: none;
 }
 
-/******************** Reponsive ************************/
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px){
     /* Hébergements */
     .cta-hbgt-cards{
@@ -155,11 +155,11 @@
     }
 
     .populaires-cards .card-title {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
     .populaires-cards .card-subtitle {
-        font-size: 13px;
+        font-size: 0.813rem;
     }
     /* Activités */
     .cta-acts-cards {

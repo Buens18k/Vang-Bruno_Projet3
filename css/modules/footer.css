@@ -18,7 +18,6 @@ footer{
     align-items: flex-start;
     gap: 0.9375rem;
     flex: 1 0 0;
-    align-self: stretch;
 }
 .cta-ft-itm h4{
     color: var(--color-txt);
@@ -38,11 +37,11 @@ footer{
 }
 .cta-ft-itm a{
     text-decoration: none;
-    color: black;
-    font-family: Raleway;
-    font-size: 1rem;
+    color: var(--color-txt);
+    font-family: var(--font-family);
+    font-size: var(--font-size-mini);
     font-style: normal;
-    font-weight: 400;
+    font-weight: var(--font-weight-mini);
 }
 
 
