@@ -168,7 +168,6 @@
     /* Populaires */
     .populaires {
         width: 100%;
-        /* margin-top: 50px; */
     }
     /* Activités à Marseilles */
     .cta {
@@ -205,11 +204,21 @@
         gap: 0.94rem;
     }
     .cta-grp section{
+        display: flex;
+        flex-direction: column;
         border-radius: 0;
+        gap: 0.94rem;
     }
+    /* Hébergement */
     .cta-main-hbgt{
         background-color: var(--color-background-white);
         margin-top: 0;
+    }
+    .cta-hbgt {
+        gap: 0.94rem;
+    }
+    .cta-grp .populaires {
+        padding: 1.875rem 1.25rem;
     }
     /* Activités */
     .cta-acts {

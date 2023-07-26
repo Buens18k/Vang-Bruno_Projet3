@@ -224,10 +224,11 @@
     .populaires-cards{
         display: flex;
         flex-direction: column;
+        gap: 0.94rem;
     }
     .populaires-cards .card{
         width: 100%;
-        margin-top: 0.94rem;
+        margin: 0;
     }
     /* Activités */
     .cta-acts-cards{
@@ -237,7 +238,7 @@
         height: 12.5rem;
     }
     .cta-acts-card img{
-        height: 8.125rem;
+        height: 9.125rem;
     }
     .cta-act-sstt{
         height: 3.6875rem;
