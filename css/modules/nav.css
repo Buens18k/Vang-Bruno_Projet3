@@ -36,6 +36,10 @@
     color: var(--main-color);
     border-top: 0.125rem solid var(--main-color);
 }
+.menu-nav-itm:hover{
+    color: var(--main-color);
+    border-top: 0.125rem solid var(--main-color);
+}
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
