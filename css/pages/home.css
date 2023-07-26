@@ -74,6 +74,15 @@
     font-weight: var(--font-weight-title);
     line-height: normal;
 }
+.hbgt-btn button{
+    font-family: var(--font-family);
+    font-size: var(--font-size-h2);
+    font-style: normal;
+    font-weight: var(--font-weight-title);
+    line-height: normal;
+    border: none;
+
+}
 /****** Populaires ***********/
 .populaires {
     width: 32%;

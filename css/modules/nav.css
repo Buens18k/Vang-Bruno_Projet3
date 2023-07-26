@@ -24,12 +24,12 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    font-family: var(--body-font);
+    font-family: var(--font-family);
     font-weight: var(--font-weight-mini);
     font-style: normal;
     font-size: var(--font-size-mini);
     text-decoration: none;
-    color: var(--color-tx);
+    color: var(--color-txt);
     height: 2.1875rem;
 }
 .active {
