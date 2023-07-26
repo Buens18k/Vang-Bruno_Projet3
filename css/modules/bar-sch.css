@@ -65,7 +65,10 @@
     .cta-search-bar{
         gap: 0;
         justify-content: center;
-        width: 96%;
+        width: 100%;
+    }
+    .cta-search-bar-form{
+        justify-content: space-between;
     }
     .cta-search-bar-btn button{
         border-radius: 0.9375rem;
