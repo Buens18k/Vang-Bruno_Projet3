@@ -54,6 +54,7 @@
     font-style: normal;
     font-weight: var(--font-weight-title);
     line-height: normal;
+    height: 3.0625rem;
 }
 .glass{
     display: none;
