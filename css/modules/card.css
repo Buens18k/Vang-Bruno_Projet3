@@ -57,7 +57,12 @@
     font-weight: 400;
     line-height: normal;
 }
-
+.hbgt-card-txt .card-rating{
+    width: 5.0625rem;
+    height: 0.82813rem;
+    align-items: center;
+    margin-bottom: 0;
+}
 
 /****************************** Cards Populaires **************************/
 .card {
