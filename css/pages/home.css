@@ -209,6 +209,7 @@
         flex-direction: column;
         border-radius: 0;
         gap: 0.94rem;
+        padding: 1.25rem;
     }
     /* Hébergement */
     .cta-main-hbgt{
