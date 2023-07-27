@@ -6,7 +6,6 @@
     padding: 0rem 3.125rem;
     box-sizing: border-box;
     gap: 2.1875rem;
-
 }
 /* Section Info Group */
 .inf-grp{
@@ -21,6 +20,7 @@
     display: flex;
     /* justify-content: space-between; */
     gap: 2.5rem ;
+    height: 38.21875rem;
 }
 
 .cta-grp section {
@@ -53,7 +53,7 @@
 .cta-hbgt{
     display: flex;
     flex-direction: column;
-    gap: 1.88rem;
+    gap: 1.875rem;
     width: 100%;
 }
 .hbgt-main{
@@ -152,6 +152,7 @@
     .cta-grp {
         flex-direction: column;
         gap: 3.125rem;
+        height: auto;
     }
     /* Hébergements */
     .hbgt {
