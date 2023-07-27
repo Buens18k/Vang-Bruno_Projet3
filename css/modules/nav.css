@@ -59,6 +59,9 @@
         justify-content: center;
         
     }
+    .logo{
+        padding: 1.875rem;
+    }
     .menu-nav{
         justify-content: center;
         width: 100%;
