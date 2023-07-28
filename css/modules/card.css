@@ -204,7 +204,7 @@
 
     /* Activités */
     .cta-acts-cards {
-        grid-template-columns: repeat(4, 23%);
+        grid-template-columns: repeat(4, 24%);
         gap: 1rem;
         width: 100%;
     }
