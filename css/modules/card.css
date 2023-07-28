@@ -200,13 +200,11 @@
     .populaires-cards .card-subtitle {
         font-size: 0.875rem;
     }
-
-
     /* Activités */
     .cta-acts-cards {
-        grid-template-columns: repeat(4, 23%);
+        grid-template-columns: repeat(4, 24%);
         gap: 1rem;
-        width: 100%;
+        /* width: 100%; */
     }
     .cta-acts-card{
         display: flex;
