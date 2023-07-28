@@ -18,6 +18,6 @@
         align-content: space-between;
         align-items: flex-start;
         align-self: stretch;
-        height: 4.975rem;
+        height: auto;
     }
 }

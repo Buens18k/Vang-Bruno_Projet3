@@ -64,6 +64,12 @@
 @media (max-width: 767.98px) {
     .ft-bar{
         width: 100%;
+        /* height: auto; */
+    }
+    .ft-bar-cta-btns {
+        /* width: 100%; */
+        display: grid;
+        grid-template-columns: repeat(2, 48.2%);
     }
     .ft-bar-btn{
         display: flex;
@@ -71,6 +77,13 @@
         padding: 0.25rem 1.1875rem;
         align-items: center;
         gap: 0.625rem;
-        flex: 1 0 0;
+        /* flex: 1 0 0; */
+        width: 100%;
     }
+    .ft-bar-btn strong{
+        width: 100%;
+        display: flex;
+        font-size: 1.2em;
+    }
+
 }

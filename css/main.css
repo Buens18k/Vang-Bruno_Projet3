@@ -42,13 +42,18 @@
 
     --max-width: 90rem;
 }
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
-    gap: 2.1875rem;
+    max-width: 90rem;
+    gap: 1.875rem;
 }
 header {
     display: flex;
@@ -106,9 +111,6 @@ p{
     body{
         gap: 1.875rem;
     }
-    p{
-        font-size: 1rem;
-    }
 }
 
 /* Small devices (phones, less than 768px) */
@@ -120,9 +122,11 @@ p{
     }
     body{
         padding: 0;
-        width: 23.4375rem;
+        /* width: 23.4375rem; */
         height: auto;
         gap: 2.19rem;
+        
+        width: 100%;
     }
     header{
         flex-direction: column;
