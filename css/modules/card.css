@@ -204,7 +204,11 @@
 
     /* Activités */
     .cta-acts-cards {
+<<<<<<< Updated upstream
         grid-template-columns: repeat(4, 23.7%);
+=======
+        grid-template-columns: repeat(4, 24%);
+>>>>>>> Stashed changes
         gap: 1rem;
         width: 100%;
     }
