@@ -144,7 +144,7 @@
 /***************** Card Activité **********************/
 .cta-acts-cards{
     display: grid;
-    grid-template-columns: repeat(4, 23%);
+    grid-template-columns: repeat(4, 23.2%);
     justify-content: center;
     align-items: flex-start;
     gap: 1.875rem;
@@ -202,7 +202,7 @@
     }
     /* Activités */
     .cta-acts-cards {
-        grid-template-columns: repeat(4, 24%);
+        grid-template-columns: repeat(4, 23.7%);
         gap: 1rem;
         /* width: 100%; */
     }

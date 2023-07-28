@@ -15,6 +15,6 @@
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     .inf-bar{
-        height: 2.375rem;
+        height: auto;
     }
 }

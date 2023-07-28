@@ -196,7 +196,7 @@
     .inf-grp{
         padding: 0rem 1.25rem;
         align-items: flex-start;
-        height: 27rem;
+        height: auto;
     }
 
     /* Hbgt & Pop */
