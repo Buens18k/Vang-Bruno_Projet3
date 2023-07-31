@@ -69,10 +69,6 @@
     .ft-bar{
         width: 100%;
     }
-    .ft-bar-btn span{
-        font-size: 0.875rem;
-        width: 100%;
-    }
     .ft-bar-cta-btns {
         display: grid;
         grid-template-columns: repeat(2, 48.2%);
@@ -85,10 +81,9 @@
         gap: 0.625rem;
         width: 100%;
     }
-    .ft-bar-btn strong{
+    .ft-bar-btn span{
+        font-size: 0.875rem;
         width: 100%;
-        display: flex;
-        font-size: 1.2em;
     }
 
 }
