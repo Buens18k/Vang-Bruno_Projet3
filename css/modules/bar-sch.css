@@ -35,6 +35,7 @@
     font-weight: var(--font-weight-title);
     line-height: normal;
     border: none;
+    width: 100%;
 }
 .cta-search-bar-btn{
     display: flex;
