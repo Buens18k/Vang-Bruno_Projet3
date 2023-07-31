@@ -36,7 +36,6 @@
     font-weight: var(--font-weight-title);
     line-height: normal;
 }
-
 .ft-bar-btn:hover {
     background-color: var(--filter-bg-color);
 }
@@ -77,7 +76,6 @@
         padding: 0.25rem 1.1875rem;
         align-items: center;
         gap: 0.625rem;
-        /* flex: 1 0 0; */
         width: 100%;
     }
     .ft-bar-btn strong{

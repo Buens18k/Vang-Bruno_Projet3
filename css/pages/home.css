@@ -15,10 +15,9 @@
     gap: 2.1875rem;
     align-self: stretch;
 }
-/****** Hebergements And Populaires ***********/
+/*********** Hebergements And Populaires ***********/
 .cta-grp {
     display: flex;
-    /* justify-content: space-between; */
     gap: 2.5rem ;
     height: 38.21875rem;
 }
@@ -32,7 +31,7 @@
 
 .section-title {
     margin: 0;
-    font-size: 22px;
+    font-size: var(--font-size-title);
 }
 .euro {
     font-weight: var(--font-weight-title);
@@ -40,7 +39,7 @@
 .neutralStar {
     color: var(--main-bg-color)
 }
-/****** Hebergements ***********/
+/*********** Hebergements ***********/
 .hbgt {
     width: 65%;
 }
@@ -83,7 +82,7 @@
     border: none;
 
 }
-/****** Populaires ***********/
+/*********** Populaires ***********/
 .populaires {
     width: 32%;
     background-color: var(--main-bg-color);
@@ -94,9 +93,7 @@
     justify-content: space-between;
     align-items: center;
 }
-
-/****** Activités ***********/
-
+/*********** Activités ***********/
 .cta-acts{
     display: flex;
     flex-direction: column;
@@ -110,7 +107,6 @@
     align-self: stretch;
 
 }
-
 .cta-act-ttle h1{
     display: flex;
     font-family: var(--font-family);
@@ -120,7 +116,6 @@
     line-height: normal;
     color: var(--color-txt);
 }
-
 .cta-acts-card img{
     display: flex;
     height: 23.75rem;
@@ -170,7 +165,7 @@
     .populaires {
         width: 100%;
     }
-    /* Activités à Marseilles */
+    /* Activités */
     .cta {
         display: flex;
         width: 100%;
@@ -188,18 +183,16 @@
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+
     .main-container{
         padding: 0;
     }
-
     .inf-grp{
         padding: 0rem 1.25rem;
         align-items: flex-start;
         height: auto;
     }
-
-    /* Hbgt & Pop */
+    /* Hébergements et Populaires */
     .cta-grp {
         flex-direction: column-reverse;
         gap: 0.94rem;
@@ -211,7 +204,7 @@
         gap: 0.94rem;
         padding: 1.25rem;
     }
-    /* Hébergement */
+    /* Hébergements */
     .cta-main-hbgt{
         background-color: var(--color-background-white);
         margin-top: 0;
@@ -219,6 +212,7 @@
     .cta-hbgt {
         gap: 0.94rem;
     }
+    /* Populaires */
     .cta-grp .populaires {
         padding: 1.875rem 1.25rem;
     }

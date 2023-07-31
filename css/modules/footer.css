@@ -44,7 +44,6 @@ footer{
     font-weight: var(--font-weight-mini);
 }
 
-
 @media (max-width: 1024px){
 
     footer{
@@ -56,6 +55,7 @@ footer{
 }
 
 @media (max-width: 767.98px){
+    
     footer{
         flex-direction: column;
         background-color: var(--color-background);
