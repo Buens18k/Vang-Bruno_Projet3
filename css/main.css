@@ -10,15 +10,7 @@
 @import 'modules/card.css';
 @import 'modules/footer.css';
 
-/****** General ***********/
-* {
-    font-family: var(--font-family);
-    /* Reset CSS */
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
-}
-
+/***** Variables ******/
 :root {
     /* Colors */
     --main-color: #0065FC;
@@ -42,6 +34,14 @@
 
     --max-width: 90rem;
 }
+/****** General ******/
+* {
+    font-family: var(--font-family);
+    /* Reset CSS */
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
 html{
     display: flex;
     justify-content: center;
@@ -55,14 +55,7 @@ body {
     max-width: 90rem;
     gap: 1.875rem;
 }
-header {
-    display: flex;
-    width: 100%;
-    max-width: var(--max-width);
-    padding-right: 0px;
-    height: 4.9375rem;
-    justify-content: space-between;
-}
+
 h1 {
     font-size: var(--font-size-title);
     font-style: normal;
@@ -124,12 +117,7 @@ p{
         padding: 0;
         height: auto;
         gap: 2.19rem;
-        
         width: 100%;
     }
-    header{
-        flex-direction: column;
-        align-items: center;
-        height: 7.1875rem;
-    }
+
 }
