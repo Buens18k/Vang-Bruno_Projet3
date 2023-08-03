@@ -62,7 +62,6 @@ header {
     padding-right: 0px;
     height: 4.9375rem;
     justify-content: space-between;
-    /* gap: 59.3375rem; */
 }
 h1 {
     font-size: var(--font-size-title);

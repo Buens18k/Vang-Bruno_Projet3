@@ -76,4 +76,9 @@
         border-top: none;
         border-bottom: 0.125rem solid var(--main-color);
     }
+    .menu-nav-itm:hover{
+        color: var(--main-color);
+        border-top: none;
+        border-bottom: 0.125rem solid var(--main-color);
+    }
 }
