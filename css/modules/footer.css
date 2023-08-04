@@ -1,4 +1,3 @@
-
 .cta-footer{
     display: flex;
     height: 10.1875rem;
@@ -6,7 +5,6 @@
     max-width: 83.75rem;
     width: 100%;
 }
-
 .cta-ft-itm{
     display: flex;
     padding: 1.25rem;
@@ -42,17 +40,15 @@
 
 @media (max-width: 1024px){
 
-    footer{
-        width: 90%;
-    }
     .cta-footer{
         gap: 1.875rem;
+        width: 90%;
     }
 }
 
 @media (max-width: 767.98px){
     
-    footer{
+    .cta-footer{
         flex-direction: column;
         background-color: var(--color-background);
         padding: 1.875rem;
